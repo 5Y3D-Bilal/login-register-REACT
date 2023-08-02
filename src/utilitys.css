@@ -1,0 +1,55 @@
+/* Utilitys */
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+  }
+  
+  hr{
+    border: rgb(109, 109, 109);
+    height: .1px;
+    background-color: rgb(190, 190, 190);
+    margin-top: 1rem;
+  }
+
+  body{
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+    background-color: #fff;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  
+  .jc-sb{
+    justify-content: space-around;
+  }
+  
+  .jc-center{
+    justify-content: center;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
+
+  
+  .container{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .color-w{
+    color: white;
+  }
+  .clr-p{
+    color: var(--primary-color);
+  }
+
+  .bg-primary{
+    background-color: var(--primary-color);
+  }
